@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  /* PLANT NURSERY PAGE--------------------------- */
+  .topnav {
+    font-size: x-large;
+    font-weight: 600;
+    overflow: hidden;
+   }
+
+  marquee {
+    font-size: large;
+    
+  }
+
+  .topnav a:hover {
+   color: black;
+  }
+
+
+/* LOGIN PAGE STYLING--------------------------- */
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  background-color: #0B3B0B;
+  padding: 26px 100px 50px 100px;
+  
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 30px;
+  font-size: 30px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-areas:
+    'header'
+    'main'
+    'footer';
+    background-color: #094330;
+    padding: 35px 100px 50px 100px;
+    
+  }
+  
+  .grid-container1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: top;
+    padding: 25px 39px;
+    font-size: 32px;
+  }
+
+  
+.grid-container2 {
+    display: grid;
+    grid-template-areas:
+    'header'
+    'main'
+    'footer';
+    background-color: #0B3B0B;
+    padding: 26px 100px 50px 100px;
+  }
+
+  .grid-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 20px;
+  }
+
+  .form-login {
+    margin-top: 30px;
+  }
+  .form-login input {
+    color: white;
+    border: none;
+    height: auto;
+    font-size: 16px;
+    padding: 13px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    background: #0B6121;
+    transition: 0.2s ease;
+  }
+  .form-login input:hover {
+    background: #179b81;
+  }
+
+  /* HOME PAGE STYLING------------------- */
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    align-items: flex-start;
+}
+
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead
+  {
+    background-color: rgb(228 240 245);
+  }
+  
+  th {
+    border: 5px solid rgb(160 160 160);
+    padding: 15px 275px;
+    font-size: x-large;
+  }
+
+  td {
+    border: 5px solid rgb(160 160 160);
+    padding: 2px 275px;
+  }
+
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+
+/* REGISTER PAGE STYLING------------------------------------ */
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    min-height: 100vh;
+    background-color: #baf7c6;
+  }
+  
+  form {
+    padding: 25px;
+    /* background: #04B486; */
+    max-width: 500px;
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+  }
+
+  form h2 {
+    font-size: 27px;
+    text-align: center;
+    margin: 0px 0 30px;
+  }
+  form .form-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  form label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 7px;
+  }
+  
+  form input,
+  form select {
+    height: 45px;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    outline: none;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #bfbfbf;
+  }
+
+  .submit-btn {
+    margin-top: 30px;
+  }
+  .submit-btn input {
+    color: white;
+    border: none;
+    height: auto;
+    font-size: 16px;
+    padding: 13px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    background: #0B6121;
+    transition: 0.2s ease;
+  }
+  .submit-btn input:hover {
+    background: #179b81;
+  }
